@@ -1,0 +1,14 @@
+/*C3*/SET SCHEMA PUBLIC
+DROP TABLE Grub
+CREATE TABLE Grub (Restaurant CHAR(25), Type CHAR(10), Dish CHAR(25), Price DOUBLE, Calories DOUBLE, ID int NOT NULL PRIMARY KEY)
+INSERT INTO GRUB VALUES('Olive Garden             ','Italian   ','Stuffed Mushrooms        ',7.79E0,380.0E0,1)
+COMMIT
+INSERT INTO GRUB VALUES('Denny''s                  ','American  ','Pot Roast Melt           ',6.99E0,710.0E0,2)
+COMMIT
+INSERT INTO GRUB VALUES('Taco Bell                ','Mexican   ','Steakhouse Burrito       ',5.79E0,1020.0E0,3)
+COMMIT
+INSERT INTO GRUB VALUES('Forbidden City           ','Chinese   ','Lemon Chicken            ',8.95E0,670.0E0,4)
+COMMIT
+INSERT INTO GRUB VALUES('Olive Garden             ','Italian   ','Fried Mozzarella         ',5.99E0,860.0E0,5)
+COMMIT
+DISCONNECT
